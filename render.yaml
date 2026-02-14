@@ -1,0 +1,5 @@
+services:
+  - type: worker
+    name: weatherbot
+    env: python
+    startCommand: python bot.py
